@@ -1,6 +1,6 @@
-package com.example.classdemo;
+package com.example.reflect.classdemo;
 
-import com.example.util.ClassUtil;
+import com.example.reflect.util.ClassUtil;
 
 /**
  * author: sundong

@@ -1,4 +1,4 @@
-package com.example.methoddemo;
+package com.example.reflect.methoddemo;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

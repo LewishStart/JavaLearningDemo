@@ -1,6 +1,4 @@
-package com.example.methoddemo;
-
-import com.example.UserService;
+package com.example.reflect.methoddemo;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

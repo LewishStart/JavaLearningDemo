@@ -1,4 +1,4 @@
-package com.example.classdemo;
+package com.example.reflect.classdemo;
 
 /**
  * author: sundong

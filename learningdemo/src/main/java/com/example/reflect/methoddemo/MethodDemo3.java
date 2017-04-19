@@ -1,7 +1,6 @@
-package com.example.methoddemo;
+package com.example.reflect.methoddemo;
 
-import com.example.User;
-import com.example.util.BeanUtil;
+import com.example.reflect.util.BeanUtil;
 
 /**
  * author: sundong
