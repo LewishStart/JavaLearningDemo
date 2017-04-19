@@ -19,7 +19,7 @@ public class ClassDemo1 {
         Class c2 = foo1.getClass();
 
 		/*官网 c1 ,c2 表示了Foo类的类类型(class type)
-		 * 万事万物皆对象，
+         * 万事万物皆对象，
 		 * 类也是对象，是Class类的实例对象
 		 * 这个对象我们称为该类的类类型
 		 *
@@ -31,16 +31,16 @@ public class ClassDemo1 {
         //第三种表达方式
         Class c3 = null;
         try {
-            c3 = Class.forName("com.imooc.reflect.Foo");
+            c3 = Class.forName("com.example.reflect.classdemo.Foo");
         } catch (ClassNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        System.out.println(c2==c3);
+        System.out.println(c2 == c3);
 
         //我们完全可以通过类的类类型创建该类的对象实例---->通过c1 or c2 or c3创建Foo的实例对象
         try {
-            Foo foo = (Foo)c1.newInstance();//需要有无参数的构造方法
+            Foo foo = (Foo) c1.newInstance();//需要有无参数的构造方法
             foo.print();
         } catch (InstantiationException e) {
             // TODO Auto-generated catch block
@@ -49,13 +49,5 @@ public class ClassDemo1 {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-
-
-    }
-}
-class Foo{
-
-    void print(){
-        System.out.println("foo");
     }
 }
